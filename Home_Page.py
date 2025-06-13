@@ -10,7 +10,7 @@ two.subheader("Talk smack.")
 three.subheader("Win Glory.")
 
 
-players = pd.read_excel("PingPongData.xlsx", sheet_name="Data")
+players = pd.read_excel("PingPongData.xlsx")
 matches = pd.read_excel("PingPongData.xlsx", sheet_name="Matches")
 st.write(players)
 st.write(matches)
